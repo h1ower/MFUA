@@ -794,6 +794,10 @@ git push origin main
 
 Вы увидите, как workflow запустился, а через несколько минут загорится **зелёная галочка** — значит, все шаги прошли успешно!
 
+Вид **Release list**:
+
+![Скрин ассетса](/content/img/accets.png)
+
 #### 10.9. Создайте новый тег
 
 ```shell
@@ -874,6 +878,10 @@ git push origin main
 git tag v0.2.0
 git push origin v0.2.0
 ```
+
+Вид **Release list**:
+
+![Скрин ассетса](/content/img/accets.png)
 
 ### Что вы освоили
 
