@@ -41,6 +41,14 @@ else
 fi
 ```
 
+Запуск скриптов:
+
+```shell
+sh script.sh
+bash script.sh
+./script.sh
+```
+
 ***
 
 ### Выполненные задания
