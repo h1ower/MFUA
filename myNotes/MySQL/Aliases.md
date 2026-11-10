@@ -560,27 +560,23 @@ cat alias_dump.sql
 
 ссылка на generalloggg: [generalloggg](/general.log)
 
-сриншоты ам ам ам :
 
-![miao](./mmiaoo/1.png)
+![miao](./Alieases/1.png)
 
-![miao](./mmiaoo/2.png)
+![miao](./Alieases/2.png)
 
-![miao](./mmiaoo/3.png)
+![miao](./Alieases/3.png)
 
-![miao](./mmiaoo/4.png)
+![miao](./Alieases/4.png)
 
-![miao](./mmiaoo/5.png)
+![miao](./Alieases/5.png)
 
-![miao](./mmiaoo/6.png)
+![miao](./Alieases/6.png)
 
-![miao](./mmiaoo/7.png)
+![miao](./Alieases/7.png)
 
-![miao](./mmiaoo/8.png)
+![miao](./Alieases/8.png)
 
-![miao](./mmiaoo/9.png)
+![miao](./Alieases/9.png)
 
-![miao](./mmiaoo/10.png)
-
-
- ![стул](./mmiaoo/Red-Gaming-Chair-Transparent-Image.png)стул  
+![miao](./Alieases/10.png)
