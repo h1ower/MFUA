@@ -647,22 +647,22 @@ docker exec shop_norm sh -c ': > /var/lib/mysql/general.log'
 ссылка на my_actions.log: [loggg](/my_actions.log)
 
 
-![miao](./Normalizator/1.png)
+![miao](./Normalization/1.png)
 
-![miao](./Normalizator/2.png)
+![miao](./Normalization/2.png)
 
-![miao](./Normalizator/3.png)
+![miao](./Normalization/3.png)
 
-![miao](./Normalizator/4.png)
+![miao](./Normalization/4.png)
 
-![miao](./Normalizator/5.png)
+![miao](./Normalization/5.png)
 
-![miao](./Normalizator/6.png)
+![miao](./Normalization/6.png)
 
-![miao](./Normalizator/7.png)
+![miao](./Normalization/7.png)
 
-![miao](./Normalizator/8.png)
+![miao](./Normalization/8.png)
 
-![miao](./Normalizator/9.png)
+![miao](./Normalization/9.png)
 
-![miao](./Normalizator/10.png)
+![miao](./Normalization/10.png)
