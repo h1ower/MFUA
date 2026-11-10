@@ -1,0 +1,30 @@
+2026-11-10T07:03:39.647602Z	    9 Query	DROP DATABASE IF EXISTS alias_db
+2026-11-10T07:03:39.680219Z	    9 Query	SELECT DATABASE()
+2026-11-10T07:03:39.681089Z	    9 Query	CREATE DATABASE alias_db
+2026-11-10T07:03:39.685536Z	    9 Query	SELECT DATABASE()
+2026-11-10T07:03:39.691450Z	    9 Query	CREATE TABLE customers (
+2026-11-10T07:03:39.718975Z	    9 Query	CREATE TABLE orders (
+2026-11-10T07:03:39.743232Z	    9 Query	CREATE TABLE employees (
+2026-11-10T07:03:39.767862Z	    9 Query	INSERT INTO customers (name, email, city) VALUES
+2026-11-10T07:03:39.776665Z	    9 Query	INSERT INTO orders (customer_id, order_date, amount, status) VALUES
+2026-11-10T07:03:39.781870Z	    9 Query	INSERT INTO employees (name, position, manager_id) VALUES
+2026-11-10T07:03:39.790521Z	    9 Query	SHOW TABLES
+2026-11-10T07:03:39.793195Z	    9 Query	SELECT * FROM customers
+2026-11-10T07:03:39.794629Z	    9 Query	SELECT * FROM orders
+2026-11-10T07:03:39.796298Z	    9 Query	SELECT * FROM employees
+2026-11-10T07:03:39.797765Z	    9 Query	SELECT customers.name, orders.order_date, orders.amount
+2026-11-10T07:03:39.799098Z	    9 Query	SELECT c.name, o.order_date, o.amount
+2026-11-10T07:03:39.800605Z	    9 Query	SELECT name AS customer_name,
+2026-11-10T07:03:39.801836Z	    9 Query	SELECT customer_id,
+2026-11-10T07:03:39.802506Z	    9 Query	SELECT id, amount * 2 AS double_amount
+2026-11-10T07:03:39.803895Z	    9 Query	SELECT id, amount * 2 AS double_amount
+2026-11-10T07:03:39.806005Z	    9 Query	SELECT e.name AS employee,
+2026-11-10T07:03:39.808066Z	    9 Query	SELECT *
+2026-11-10T07:03:39.810399Z	    9 Query	SELECT c.name,
+2026-11-10T07:03:39.813130Z	    9 Query	SELECT c.name AS customer,
+2026-11-10T07:03:39.815566Z	    9 Query	SELECT c.name, o.total
+2026-11-10T07:03:39.817880Z	    9 Query	SELECT customer_id,
+2026-11-10T07:03:39.818969Z	    9 Query	DESCRIBE customers
+2026-11-10T07:03:39.822295Z	    9 Query	DESCRIBE orders
+2026-11-10T07:03:39.823539Z	    9 Query	DESCRIBE employees
+2026-11-10T07:03:40.524973Z	    9 Query	SELECT VERSION()
