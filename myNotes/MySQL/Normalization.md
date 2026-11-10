@@ -646,7 +646,6 @@ docker exec shop_norm sh -c ': > /var/lib/mysql/general.log'
 ссылка на новый dump: [newdump](/norm_dump.sql)
 ссылка на my_actions.log: [loggg](/my_actions.log)
 
-скриншоты ам ам ам:
 
 ![miao](./Normalizator/1.png)
 
