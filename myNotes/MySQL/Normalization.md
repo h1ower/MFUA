@@ -648,22 +648,22 @@ docker exec shop_norm sh -c ': > /var/lib/mysql/general.log'
 
 скриншоты ам ам ам:
 
-![miao](./mioamiao/1.png)
+![miao](./Normalizator/1.png)
 
-![miao](./mioamiao/2.png)
+![miao](./Normalizator/2.png)
 
-![miao](./mioamiao/3.png)
+![miao](./Normalizator/3.png)
 
-![miao](./mioamiao/4.png)
+![miao](./Normalizator/4.png)
 
-![miao](./mioamiao/5.png)
+![miao](./Normalizator/5.png)
 
-![miao](./mioamiao/6.png)
+![miao](./Normalizator/6.png)
 
-![miao](./mioamiao/7.png)
+![miao](./Normalizator/7.png)
 
-![miao](./mioamiao/8.png)
+![miao](./Normalizator/8.png)
 
-![miao](./mioamiao/9.png)
+![miao](./Normalizator/9.png)
 
-![miao](./mioamiao/10.png)
+![miao](./Normalizator/10.png)
