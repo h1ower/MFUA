@@ -1,0 +1,17 @@
+/usr/sbin/mysqld, Version: 26.10.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2026-11-05T08:42:17.806865Z	   11 Query	SHOW VARIABLES LIKE 'general_log%'
+2026-11-05T08:42:18.520263Z	   11 Query	SHOW VARIABLES LIKE 'log_output'
+2026-11-05T08:42:26.975784Z	   11 Query	SELECT DATABASE()
+2026-11-05T08:42:26.976075Z	   11 Init DB	sql_practice
+2026-11-05T08:42:26.977166Z	   11 Query	show databases
+2026-11-05T08:42:26.978041Z	   11 Query	show tables
+2026-11-05T08:42:26.978968Z	   11 Field List	customers 
+2026-11-05T08:42:27.053966Z	   11 Field List	my_actions 
+2026-11-05T08:42:27.185556Z	   11 Field List	orders 
+2026-11-05T08:42:27.186171Z	   11 Query	SELECT * FROM customers
+2026-11-05T08:42:27.186806Z	   11 Query	SELECT * FROM orders
+2026-11-05T08:42:27.187308Z	   11 Query	SHOW TABLES
+2026-11-05T08:42:27.712847Z	   11 Query	SELECT COUNT(*) FROM customers
+2026-11-05T08:42:33.508527Z	   11 Quit	
