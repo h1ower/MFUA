@@ -643,8 +643,11 @@ docker exec shop_norm sh -c ': > /var/lib/mysql/general.log'
 ---
 
 ссылка на плохой dump: [baddump](/dump_bad.sql)
+
 ссылка на новый dump: [newdump](/norm_dump.sql)
+
 ссылка на my_actions.log: [loggg](/my_actions.log)
+
 
 
 ![miao](./Normalization/1.png)
