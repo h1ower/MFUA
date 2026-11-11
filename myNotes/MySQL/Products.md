@@ -360,6 +360,6 @@ SELECT * FROM products2;
 | `EXIT;` или `\q` | Выйти из MySQL |
 | `\G` вместо `;` | Вертикальный вывод строки |
 
- ссылка на dump: [dump](./VIEW/dump.sql)
+ ссылка на dump: [dump](./Products/dump.sql)
  
- ссылка на log: [log](./VIEW/general.log)
+ ссылка на log: [log](./Products/general.log)
