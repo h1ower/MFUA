@@ -92,6 +92,7 @@ USE shop_norm;
 ```sql
 SHOW DATABASES;
 ```
+![miao](./Normalization/1.png)
 
 ### 2.2. Создание «плохой» таблицы
 
@@ -122,12 +123,16 @@ INSERT INTO orders_bad (customer_name, customer_city, product_name, product_pric
 SHOW TABLES;
 SELECT * FROM orders_bad;
 ```
+![miao](./Normalization/2.png)
+
 **Сколько потратил Иван?**
 ```sql
 SELECT SUM(product_price * quantity) AS total
 FROM orders_bad
 WHERE customer_name = 'Иван';
 ```
+![miao](./Normalization/3.png)
+
 Работает, но данные дублируются, и любое изменение — риск аномалии.
 
 ---
@@ -146,6 +151,8 @@ WHERE order_id = 1;
 ```sql
 SELECT * FROM orders_bad WHERE customer_name = 'Иван';
 ```
+![miao](./Normalization/4.png)
+
 **Результат:** у Ивана теперь два разных города — «Сочи» и «Москва».
 
 **Вывод:** один и тот же факт (место жительства) продублирован. При изменении легко забыть обновить все строки. В нормализованной базе город хранился бы в одной строке таблицы `customers`.
