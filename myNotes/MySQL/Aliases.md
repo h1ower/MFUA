@@ -60,8 +60,9 @@ docker ps
 ```
 
 ### 0.3. Очистка лога перед началом работы
-
 При первом запуске MySQL загружает системные данные (справку, часовые пояса), которые попадут в лог. Чтобы начать с чистого листа:
+
+![miao](./Alieases/14.png)
 
 ```shell
 docker exec -u mysql mysql_alias sh -c ': > /var/lib/mysql/general.log'
@@ -402,6 +403,8 @@ SELECT * FROM (SELECT id FROM customers) AS t;
 
 ### 3. Алиас в `WHERE`
 
+![miao](./Alieases/11.png)
+
 ```sql
 -- ❌ Ошибка
 SELECT amount * 2 AS double_amount FROM orders WHERE double_amount > 1000;
@@ -419,6 +422,7 @@ SELECT id FROM customers JOIN orders ON customers.id = orders.customer_id;
 -- ✅ Правильно
 SELECT c.id, o.id FROM customers c JOIN orders o ON c.id = o.customer_id;
 ```
+![miao](./Alieases/10.png)
 
 ### 5. Забытый алиас в самосоединении
 
