@@ -850,6 +850,6 @@ SELECT * FROM my_actions LIMIT 5;
 
 ---
 
- ссылка на dump_clean: [dump](./my-mysql/sys2/dump_clean.sql)
-
- ссылка на log: [log](./my-mysql/sys2/general.log)
+ ссылка на dump: [dump](./my-mysql/dump.sql)
+ 
+ ссылка на log: [log](./my-mysql/general.log)
