@@ -1,0 +1,18 @@
+2026-10-30 07:06:23+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 26.10.0-1.el9 started.
+2026-10-30 07:06:24+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2026-10-30 07:06:24+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 26.10.0-1.el9 started.
+2026-10-30 07:06:25+00:00 [Note] [Entrypoint]: Initializing database files
+2026-10-30 07:06:36+00:00 [Note] [Entrypoint]: Database files initialized
+2026-10-30 07:06:36+00:00 [Note] [Entrypoint]: Starting temporary server
+2026-10-30 07:06:38+00:00 [Note] [Entrypoint]: Temporary server started.
+'/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+
+2026-10-30 07:06:41+00:00 [Note] [Entrypoint]: Stopping temporary server
+2026-10-30 07:06:43+00:00 [Note] [Entrypoint]: Temporary server stopped
+
+2026-10-30 07:06:43+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+
+2026-10-30 07:26:32+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 26.10.0-1.el9 started.
+2026-10-30 07:26:32+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2026-10-30 07:26:32+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 26.10.0-1.el9 started.
+'/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
