@@ -361,5 +361,3 @@ SELECT * FROM products2;
 | `\G` вместо `;` | Вертикальный вывод строки |
 
  ссылка на dump: [dump](./Products/dump.sql)
- 
- ссылка на log: [log](./Products/general.log)
