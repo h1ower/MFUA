@@ -665,25 +665,3 @@ docker exec shop_norm sh -c ': > /var/lib/mysql/general.log'
 ссылка на новый dump: [new-dump](/norm_dump.sql)
 
 ссылка на my_actions.log: [log](/my_actions.log)
-
-
-
-![miao](./Normalization/1.png)
-
-![miao](./Normalization/2.png)
-
-![miao](./Normalization/3.png)
-
-![miao](./Normalization/4.png)
-
-![miao](./Normalization/5.png)
-
-![miao](./Normalization/6.png)
-
-![miao](./Normalization/7.png)
-
-![miao](./Normalization/8.png)
-
-![miao](./Normalization/9.png)
-
-![miao](./Normalization/10.png)
