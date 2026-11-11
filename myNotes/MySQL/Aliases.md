@@ -567,4 +567,10 @@ cat alias_dump.sql
 - Лог действий удобно фильтровать через `grep` — это не требует SQL-запросов и работает на хосте.
 - Дамп создаётся через `mysqldump` и сохраняется на хосте.
 
+![miao](./Alieases/11.png)
 
+![miao](./Alieases/12.png)
+
+![miao](./Alieases/13.png)
+
+![miao](./Alieases/14.png)
