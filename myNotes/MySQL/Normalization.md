@@ -169,6 +169,8 @@ DELETE FROM orders_bad WHERE order_id = 4;
 ```sql
 SELECT * FROM orders_bad WHERE customer_name = 'Мария';
 ```
+![miao](./Normalization/5.png)
+
 **Результат:** информация о Марии пока осталась — у неё есть ещё заказ `order_id = 3`.
 
 > ⚠️ Если удалить и второй заказ, Мария полностью исчезнет из базы. Мы **не будем** этого делать, чтобы сохранить данные для нормализации. Но вы можете убедиться в этом самостоятельно, а затем вернуть данные, выполнив `INSERT` заново.
@@ -188,6 +190,8 @@ VALUES ('Новый клиент', 'Тверь');
 ```sql
 SELECT * FROM orders_bad WHERE customer_name = 'Новый клиент';
 ```
+![miao](./Normalization/6.png)
+
 **Результат:** строка есть, но все поля, относящиеся к заказу, — `NULL`.
 
 **Вывод:** нельзя сохранить клиента, не создавая фиктивный заказ. Таблица не позволяет хранить сущность «клиент» отдельно от сущности «заказ».
@@ -291,6 +295,9 @@ DESCRIBE products_3nf;
 DESCRIBE orders_3nf;
 DESCRIBE order_items_3nf;
 ```
+![miao](./Normalization/7.png)
+
+![miao](./Normalization/8.png)
 
 ### 5.2. Что мы получили
 
@@ -365,6 +372,10 @@ SELECT * FROM products_3nf;
 SELECT * FROM orders_3nf;
 SELECT * FROM order_items_3nf;
 ```
+![miao](./Normalization/9.png)
+
+![miao](./Normalization/10.png)
+
 
 ---
 
