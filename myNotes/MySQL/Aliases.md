@@ -561,7 +561,7 @@ cat alias_dump.sql
 **Результат оформить в виде отдельного `README.md` со скриншотами результатов ваших действий, дампом и логом (лог-файл должен содержать только ваши действия) в этой же папке и прислать ссылку преподавателю.**
 
 ---
-- [Открыть `alias_dump.sql`] [alias_dump.sql](/Alieases_alias_dump.sql)
+- [Открыть `alias_dump.sql`](alias_dump.sql)
 - [Открыть `my_actions.log`] [log](/my_actions.log)
 ## 📌 Итог
 
