@@ -568,22 +568,3 @@ cat alias_dump.sql
 - Дамп создаётся через `mysqldump` и сохраняется на хосте.
 
 
-![miao](./Alieases/1.png)
-
-![miao](./Alieases/2.png)
-
-![miao](./Alieases/3.png)
-
-![miao](./Alieases/4.png)
-
-![miao](./Alieases/5.png)
-
-![miao](./Alieases/6.png)
-
-![miao](./Alieases/7.png)
-
-![miao](./Alieases/8.png)
-
-![miao](./Alieases/9.png)
-
-![miao](./Alieases/10.png)
