@@ -140,6 +140,12 @@ INSERT INTO employees (name, position, manager_id) VALUES
 
 Проверим:
 
+![miao](./Alieases/1.png)
+
+![miao](./Alieases/2.png)
+
+![miao](./Alieases/3.png)
+
 ```sql
 SELECT * FROM customers;
 SELECT * FROM orders;
@@ -187,6 +193,7 @@ SELECT c.name, o.order_date, o.amount
 FROM customers c
 JOIN orders o ON c.id = o.customer_id;
 ```
+![miao](./Alieases/4.png)
 
 Короче и читабельнее. В запросе с 3–4 таблицами экономия существенна.
 
@@ -211,6 +218,7 @@ SELECT id FROM customers JOIN orders ON ...;
 -- Правильно:
 SELECT c.id, o.id FROM customers c JOIN orders o ON c.id = o.customer_id;
 ```
+![miao](./Alieases/5.png)
 
 3. **Производные таблицы (подзапросы в `FROM`)** — алиас обязателен:
 
@@ -239,6 +247,7 @@ SELECT name AS customer_name,
        email AS contact_email
 FROM customers;
 ```
+![miao](./Alieases/6.png)
 
 Или для агрегатов:
 
@@ -249,7 +258,7 @@ SELECT customer_id,
 FROM orders
 GROUP BY customer_id;
 ```
-
+![miao](./Alieases/7.png)
 Без алиасов заголовки столбцов были бы `COUNT(*)` и `SUM(amount)` — неинформативно.
 
 ### Где можно ссылаться на алиас столбца
@@ -270,6 +279,7 @@ SELECT id, amount * 2 AS double_amount
 FROM orders
 ORDER BY double_amount DESC;
 ```
+![miao](./Alieases/8.png)
 
 Работает, потому что `ORDER BY` выполняется после `SELECT`.
 
@@ -285,6 +295,8 @@ WHERE double_amount > 1000;
 ```
 
 Правильно:
+
+![miao](./Alieases/9.png)
 
 ```sql
 -- ✅ Правильно: повторить выражение
@@ -356,6 +368,7 @@ JOIN orders o ON c.id = o.customer_id
 WHERE o.status = 'paid'
 ORDER BY double_amount DESC;
 ```
+![miao](./Alieases/10.png)
 
 Без алиасов пришлось бы писать `customers.name`, `orders.order_date` и т.д. — громоздко и трудночитаемо.
 
