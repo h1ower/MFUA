@@ -46,15 +46,15 @@ log_output = FILE
 Сборка и запуск в Git Bash:
 
 ```bash
-docker build -t begin-mysql-1-andrey76546:8.0 .
-docker volume create begin_mysql_1_andrey76546_data
-docker run --name begin-mysql-1-andrey76546 \
+docker build -t begin-mysql-1-mikhail5252:8.0 .
+docker volume create begin_mysql_1_mikhail5252_data
+docker run --name begin-mysql-1-mikhail5252 \
   -e MYSQL_ROOT_PASSWORD=123 \
   -e LANG=C.UTF-8 \
-  -v begin_mysql_1_andrey76546_data:/var/lib/mysql \
-  -d begin-mysql-1-andrey76546:8.0
+  -v begin_mysql_1_mikhail5252_data:/var/lib/mysql \
+  -d begin-mysql-1-mikhail5252:8.0
 
-docker exec -it begin-mysql-1-andrey76546 \
+docker exec -it begin-mysql-1-mikhail525276546 \
   mysql --default-character-set=utf8mb4 -uroot -p
 ```
 
@@ -136,8 +136,8 @@ bash ./export_log.sh
 После проверки выполнялись только команды управления учебным контейнером:
 
 ```bash
-docker stop begin-mysql-1-andrey76546
-docker start begin-mysql-1-andrey76546
+docker stop begin-mysql-1-mikhail5252
+docker start begin-mysql-1-mikhail5252
 ```
 
 ## Скриншоты
