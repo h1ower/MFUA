@@ -160,9 +160,5 @@ docker start begin-mysql-1-andrey76546
 
 - [Dockerfile](./Dockerfile) — производный образ MySQL 8.0 с корректными правами конфигурации;
 - [my.cnf](./my.cnf) — UTF-8 и `general_log`;
-- [run_lab.sh](./run_lab.sh) — воспроизводимое выполнение этапов;
-- [sql/operations.sql](./sql/operations.sql) — создание базы, таблицы и операции с данными;
-- [sql/cleanup.sql](./sql/cleanup.sql) — `DELETE`, `DROP TABLE`, `DROP DATABASE`;
 - [dump_clean.sql](./dump_clean.sql) — дамп до удаления базы;
 - [my_actions.log](./my_actions.log) — очищенный настоящий general log;
-- [operations-output.txt](./operations-output.txt) и [cleanup-output.txt](./cleanup-output.txt) — фактический вывод MySQL-клиента.
