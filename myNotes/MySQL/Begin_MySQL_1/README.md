@@ -162,7 +162,7 @@ docker start begin-mysql-1-mikhail5252
 
 ## Файлы лабораторной
 
-- [Dockerfile](./Dockerfile) — производный образ MySQL 8.0 с корректными правами конфигурации;
+- [Dockerfile](./Dockerfile) — производный образ MySQL 8.0
 - [my.cnf](./my.cnf) — UTF-8 и `general_log`;
 - [dump_clean.sql](./dump_clean.sql) — дамп до удаления базы;
-- [my_actions.log](./my_actions.log) — очищенный настоящий general log;
+- [my_actions.log](./my_actions.log) — настоящий general log;
