@@ -144,11 +144,11 @@ docker start begin-mysql-1-andrey76546
 Снимки сделаны в настоящих окнах PowerShell. На них показан фактический вывод Docker CLI и MySQL; изображения не генерировались и не редактировались.
 
 
-![miao](./screenshots/1-docker-mysql.png)
+![miao](./screenshots/1.png)
 
-![miao](./screenshots/2-sql-queries.png)
+![miao](./screenshots/2.png)
 
-![miao](./screenshots/3-dump-log.png)
+![miao](./screenshots/3.png)
 
 ## Файлы лабораторной
 
