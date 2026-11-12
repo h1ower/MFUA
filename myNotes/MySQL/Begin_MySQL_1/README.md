@@ -150,6 +150,16 @@ docker start begin-mysql-1-andrey76546
 
 ![miao](./screenshots/3.png)
 
+![miao](./screenshots/4.png)
+
+![miao](./screenshots/5.png)
+
+![miao](./screenshots/6.png)
+
+![miao](./screenshots/7.png)
+
+![miao](./screenshots/8.png)
+
 ## Файлы лабораторной
 
 - [Dockerfile](./Dockerfile) — производный образ MySQL 8.0 с корректными правами конфигурации;
