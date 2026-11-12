@@ -143,11 +143,9 @@ docker start begin-mysql-1-andrey76546
 ## Скриншоты
 Снимки сделаны в настоящих окнах PowerShell. На них показан фактический вывод Docker CLI и MySQL; изображения не генерировались и не редактировались.
 
-### 1. Запуск контейнера и подключение к MySQL
 
-![Запуск Docker-контейнера и подключение к MySQL](./screenshots/01-docker-mysql.png)
+(./screenshots/01-docker-mysql.png)
 
-### 2. SQL-запросы и результаты
 
 ![SQL-запросы и результаты SELECT](./screenshots/02-sql-queries.png)
 
