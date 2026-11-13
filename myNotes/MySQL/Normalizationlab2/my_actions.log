@@ -1,0 +1,169 @@
+2026-11-12T07:18:08.677977Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.692758Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.699388Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.705790Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.712190Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.719137Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.724490Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.731071Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.736626Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.741808Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.748522Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.756295Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.768295Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.775539Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.782972Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.788982Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.800984Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.807166Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.811221Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.819778Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.825284Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.853389Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.860129Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.868751Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.875441Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.880703Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.887012Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.891064Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.896736Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.902574Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.908512Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.908577Z	    6 Query	INSERT IGNORE INTO server_cost(cost_name) VALUES
+2026-11-12T07:18:08.918978Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.919048Z	    6 Query	INSERT IGNORE INTO engine_cost(engine_name, device_type, cost_name) VALUES
+2026-11-12T07:18:08.927663Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.934326Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:18:08.937533Z	    6 Query	CREATE USER root@localhost;
+2026-11-12T07:18:08.951663Z	    6 Query	INSERT IGNORE INTO mysql.global_grants VALUES ('root', 'localhost', 'AUDIT_ABORT_EXEMPT', 'Y');
+2026-11-12T07:18:08.953353Z	    6 Query	INSERT IGNORE INTO mysql.global_grants VALUES ('root', 'localhost', 'FIREWALL_EXEMPT', 'Y')
+2026-11-12T07:18:09.244989Z	    6 Query	DELETE FROM mysql.plugin WHERE name='mysqlx';
+2026-11-12T07:18:09.443694Z	    6 Query	CREATE DATABASE IF NOT EXISTS sys DEFAULT CHARACTER SET utf8mb4;
+2026-11-12T07:18:09.446400Z	    6 Query	ALTER DATABASE sys CHARACTER SET utf8mb4;
+2026-11-12T07:18:09.450352Z	    6 Query	INSERT IGNORE INTO mysql.db VALUES
+2026-11-12T07:18:09.452267Z	    6 Query	INSERT IGNORE INTO mysql.tables_priv VALUES
+2026-11-12T07:18:09.494873Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' TRIGGER sys_config_insert_set_user BEFORE INSERT on sys_config
+2026-11-12T07:18:09.500372Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' TRIGGER sys_config_update_set_user BEFORE UPDATE on sys_config
+2026-11-12T07:18:09.504445Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION extract_schema_from_file_name (
+2026-11-12T07:18:09.508662Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION extract_table_from_file_name (
+2026-11-12T07:18:09.511949Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION sys.format_bytes (
+2026-11-12T07:18:09.516155Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION format_path (
+2026-11-12T07:18:09.519975Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION format_statement (
+2026-11-12T07:18:09.522895Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION sys.format_time (
+2026-11-12T07:18:09.526513Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION list_add (
+2026-11-12T07:18:09.529258Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION list_drop (
+2026-11-12T07:18:09.531837Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_is_account_enabled (
+2026-11-12T07:18:09.536425Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_is_consumer_enabled (
+2026-11-12T07:18:09.540364Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_is_instrument_default_enabled (
+2026-11-12T07:18:09.543667Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_is_instrument_default_timed (
+2026-11-12T07:18:09.547048Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_is_thread_instrumented (
+2026-11-12T07:18:09.553365Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION sys.ps_thread_id (
+2026-11-12T07:18:09.555743Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_thread_account (
+2026-11-12T07:18:09.557149Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_thread_stack (
+2026-11-12T07:18:09.561228Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_thread_trx_info (
+2026-11-12T07:18:09.566845Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION sys_get_config (
+2026-11-12T07:18:09.569505Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION version_major ()
+2026-11-12T07:18:09.573244Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION version_minor ()
+2026-11-12T07:18:09.576163Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION version_patch ()
+2026-11-12T07:18:10.141963Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE create_synonym_db (
+2026-11-12T07:18:10.147588Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE execute_prepared_stmt (
+2026-11-12T07:18:10.160747Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE diagnostics (
+2026-11-12T07:18:10.172336Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_statement_avg_latency_histogram ()
+2026-11-12T07:18:10.178860Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_trace_statement_digest (
+2026-11-12T07:18:10.194417Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_trace_thread (
+2026-11-12T07:18:10.202783Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_disable_background_threads ()
+2026-11-12T07:18:10.206559Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_disable_consumer (
+2026-11-12T07:18:10.212417Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_disable_instrument (
+2026-11-12T07:18:10.215450Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_disable_thread (
+2026-11-12T07:18:10.219973Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_enable_background_threads ()
+2026-11-12T07:18:10.223769Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_enable_consumer (
+2026-11-12T07:18:10.230210Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_enable_instrument (
+2026-11-12T07:18:10.234163Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_enable_thread (
+2026-11-12T07:18:10.238971Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_reload_saved ()
+2026-11-12T07:18:10.247177Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_reset_to_default (
+2026-11-12T07:18:10.254371Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_save (
+2026-11-12T07:18:10.257290Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_disabled (
+2026-11-12T07:18:10.266111Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_disabled_consumers ()
+2026-11-12T07:18:10.269566Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_disabled_instruments ()
+2026-11-12T07:18:10.272597Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_enabled (
+2026-11-12T07:18:10.278581Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_enabled_consumers ()
+2026-11-12T07:18:10.283333Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_enabled_instruments ()
+2026-11-12T07:18:10.286904Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_truncate_all_tables (
+2026-11-12T07:18:10.290121Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE statement_performance_analyzer (
+2026-11-12T07:18:10.298559Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE table_exists (
+2026-11-12T07:18:13.598469Z	    8 Query	ALTER USER 'root'@'localhost' IDENTIFIED BY <secret>
+2026-11-12T07:18:13.607850Z	    8 Query	CREATE USER 'root'@'%' IDENTIFIED BY <secret>
+2026-11-12T07:18:13.622948Z	    8 Query	DROP DATABASE IF EXISTS test
+2026-11-12T07:18:13.626466Z	    8 Query	SELECT DATABASE()
+2026-11-12T07:18:13.645133Z	    9 Query	SELECT @@datadir, @@pid_file
+2026-11-12T07:18:27.577120Z	    8 Query	SHOW VARIABLES LIKE 'general_log'
+2026-11-12T07:18:27.585734Z	    8 Query	SHOW VARIABLES LIKE 'general_log_file'
+2026-11-12T07:18:28.522493Z	    8 Query	SHOW VARIABLES LIKE 'log_output'
+2026-11-12T07:18:50.542117Z	    8 Query	CREATE DATABASE sales_norm
+2026-11-12T07:18:52.319842Z	    8 Query	SELECT DATABASE()
+2026-11-12T07:18:57.728144Z	    8 Query	CREATE TABLE orders_bad (
+2026-11-12T07:19:04.471029Z	    8 Query	INSERT INTO orders_bad VALUES
+2026-11-12T07:19:09.153295Z	    8 Query	SELECT COUNT(*) FROM orders_bad
+2026-11-12T07:19:09.966813Z	    8 Query	SELECT * FROM orders_bad ORDER BY sale_id, product_id
+2026-11-12T07:20:27.942257Z	    9 Query	SHOW VARIABLES LIKE 'gtid_mode'
+2026-11-12T07:20:27.945258Z	    9 Query	SELECT LOGFILE_GROUP_NAME, FILE_NAME, TOTAL_EXTENTS, INITIAL_SIZE, ENGINE, EXTRA FROM INFORMATION_SCHEMA.FILES WHERE ENGINE = 'ndbcluster' AND FILE_TYPE = 'UNDO LOG' AND FILE_NAME IS NOT NULL AND LOGFILE_GROUP_NAME IS NOT NULL AND LOGFILE_GROUP_NAME IN (SELECT DISTINCT LOGFILE_GROUP_NAME FROM INFORMATION_SCHEMA.FILES WHERE ENGINE = 'ndbcluster' AND FILE_TYPE = 'DATAFILE' AND TABLESPACE_NAME IN (SELECT DISTINCT TABLESPACE_NAME FROM INFORMATION_SCHEMA.PARTITIONS WHERE TABLE_SCHEMA IN ('sales_norm'))) GROUP BY LOGFILE_GROUP_NAME, FILE_NAME, ENGINE, TOTAL_EXTENTS, INITIAL_SIZE ORDER BY LOGFILE_GROUP_NAME
+2026-11-12T07:20:27.951471Z	    9 Query	SELECT DISTINCT TABLESPACE_NAME, FILE_NAME, LOGFILE_GROUP_NAME, EXTENT_SIZE, INITIAL_SIZE, ENGINE FROM INFORMATION_SCHEMA.FILES WHERE FILE_TYPE = 'DATAFILE' AND TABLESPACE_NAME IN (SELECT DISTINCT TABLESPACE_NAME FROM INFORMATION_SCHEMA.PARTITIONS WHERE TABLE_SCHEMA IN ('sales_norm')) ORDER BY TABLESPACE_NAME, LOGFILE_GROUP_NAME
+2026-11-12T07:20:27.952653Z	    9 Query	SHOW VARIABLES LIKE 'ndbinfo\_version'
+2026-11-12T07:20:27.961675Z	    9 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `orders_bad`
+2026-11-12T07:20:27.967692Z	    9 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'sales_norm' AND TABLE_NAME = 'orders_bad'
+2026-11-12T07:21:00.153040Z	    8 Query	SELECT sale_id, product_id, client_id, client_name, client_city
+2026-11-12T07:21:04.184180Z	    8 Query	UPDATE orders_bad
+2026-11-12T07:21:08.567483Z	    8 Query	SELECT sale_id, product_id, client_id, client_name, client_city
+2026-11-12T07:21:29.541471Z	    8 Query	UPDATE orders_bad
+2026-11-12T07:21:32.941666Z	    8 Query	SELECT DISTINCT client_id, client_name, client_city
+2026-11-12T07:21:45.351731Z	    8 Query	INSERT INTO orders_bad (client_id, client_name, client_city)
+2026-11-12T07:22:33.365846Z	    8 Query	SELECT * FROM orders_bad WHERE client_id = 104
+2026-11-12T07:23:21.776108Z	    8 Query	DELETE FROM orders_bad WHERE client_id = 104
+2026-11-12T07:23:25.596696Z	    8 Query	SELECT COUNT(*) FROM orders_bad
+2026-11-12T07:23:32.397033Z	    8 Query	SELECT DISTINCT client_id, client_name, client_city
+2026-11-12T07:23:33.109922Z	    8 Query	SELECT COUNT(*) AS rows_before
+2026-11-12T07:23:36.391650Z	    8 Query	DELETE FROM orders_bad WHERE client_id = 103
+2026-11-12T07:23:39.333071Z	    8 Query	SELECT COUNT(*) AS rows_after FROM orders_bad WHERE client_id = 103
+2026-11-12T07:23:40.145401Z	    8 Query	SELECT DISTINCT client_id, client_name, client_city
+2026-11-12T07:24:19.477916Z	    8 Query	INSERT INTO orders_bad VALUES
+2026-11-12T07:24:23.576620Z	    8 Query	SELECT COUNT(*) FROM orders_bad
+2026-11-12T07:24:24.204437Z	    8 Query	SELECT DISTINCT client_id, client_name, client_city
+2026-11-12T07:24:28.138256Z	    8 Query	SELECT COUNT(*) AS total_rows FROM orders_bad
+2026-11-12T07:24:28.142405Z	    8 Query	SELECT SUM(unit_price * quantity) AS total_sum FROM orders_bad
+2026-11-12T07:24:28.744232Z	    8 Query	SELECT * FROM orders_bad ORDER BY sale_id, product_id
+2026-11-12T07:25:46.317496Z	    8 Query	SELECT COUNT(*) AS total_rows FROM orders_bad
+2026-11-12T07:25:48.597799Z	    8 Query	SELECT client_id, COUNT(*) AS cnt, SUM(unit_price * quantity) AS sum_by_client
+2026-11-12T07:26:37.148622Z	    8 Query	CREATE TABLE clients (
+2026-11-12T07:26:37.180575Z	    8 Query	CREATE TABLE products (
+2026-11-12T07:26:37.215569Z	    8 Query	CREATE TABLE sales (
+2026-11-12T07:26:38.264301Z	    8 Query	CREATE TABLE sale_items (
+2026-11-12T07:26:42.725716Z	    8 Query	INSERT INTO clients (client_id, client_name, client_city)
+2026-11-12T07:26:42.742016Z	    8 Query	INSERT INTO products (product_id, product_name, unit_price)
+2026-11-12T07:26:42.755964Z	    8 Query	INSERT INTO sales (sale_id, sale_date, client_id)
+2026-11-12T07:26:43.565121Z	    8 Query	INSERT INTO sale_items (sale_id, product_id, quantity)
+2026-11-12T07:26:48.447066Z	    8 Query	SELECT COUNT(DISTINCT client_id) AS clients_before FROM orders_bad
+2026-11-12T07:26:48.448250Z	    8 Query	SELECT COUNT(*) AS clients_after FROM clients
+2026-11-12T07:26:48.451350Z	    8 Query	SELECT COUNT(DISTINCT product_id) AS products_before FROM orders_bad
+2026-11-12T07:26:48.452371Z	    8 Query	SELECT COUNT(*) AS products_after FROM products
+2026-11-12T07:26:48.456452Z	    8 Query	SELECT COUNT(DISTINCT sale_id) AS sales_before FROM orders_bad
+2026-11-12T07:26:48.458972Z	    8 Query	SELECT COUNT(*) AS sales_after FROM sales
+2026-11-12T07:26:48.462095Z	    8 Query	SELECT COUNT(*) AS items_before FROM orders_bad
+2026-11-12T07:26:49.129290Z	    8 Query	SELECT COUNT(*) AS items_after FROM sale_items
+2026-11-12T07:26:54.233361Z	    8 Query	SELECT 'before' AS stage, SUM(unit_price * quantity) AS total_sum
+2026-11-12T07:27:08.163925Z	    8 Query	SELECT c.client_name, SUM(p.unit_price * si.quantity) AS total_spent
+2026-11-12T07:27:13.147306Z	    8 Query	SELECT s.sale_id, s.sale_date, c.client_name, p.product_name, si.quantity
+2026-11-12T07:27:24.413311Z	    8 Query	RENAME TABLE orders_bad TO orders_bad_backup
+2026-11-12T07:27:33.908723Z	   10 Query	SHOW VARIABLES LIKE 'gtid_mode'
+2026-11-12T07:27:33.911279Z	   10 Query	SELECT LOGFILE_GROUP_NAME, FILE_NAME, TOTAL_EXTENTS, INITIAL_SIZE, ENGINE, EXTRA FROM INFORMATION_SCHEMA.FILES WHERE ENGINE = 'ndbcluster' AND FILE_TYPE = 'UNDO LOG' AND FILE_NAME IS NOT NULL AND LOGFILE_GROUP_NAME IS NOT NULL AND LOGFILE_GROUP_NAME IN (SELECT DISTINCT LOGFILE_GROUP_NAME FROM INFORMATION_SCHEMA.FILES WHERE ENGINE = 'ndbcluster' AND FILE_TYPE = 'DATAFILE' AND TABLESPACE_NAME IN (SELECT DISTINCT TABLESPACE_NAME FROM INFORMATION_SCHEMA.PARTITIONS WHERE TABLE_SCHEMA IN ('sales_norm'))) GROUP BY LOGFILE_GROUP_NAME, FILE_NAME, ENGINE, TOTAL_EXTENTS, INITIAL_SIZE ORDER BY LOGFILE_GROUP_NAME
+2026-11-12T07:27:33.913140Z	   10 Query	SELECT DISTINCT TABLESPACE_NAME, FILE_NAME, LOGFILE_GROUP_NAME, EXTENT_SIZE, INITIAL_SIZE, ENGINE FROM INFORMATION_SCHEMA.FILES WHERE FILE_TYPE = 'DATAFILE' AND TABLESPACE_NAME IN (SELECT DISTINCT TABLESPACE_NAME FROM INFORMATION_SCHEMA.PARTITIONS WHERE TABLE_SCHEMA IN ('sales_norm')) ORDER BY TABLESPACE_NAME, LOGFILE_GROUP_NAME
+2026-11-12T07:27:33.914127Z	   10 Query	SHOW VARIABLES LIKE 'ndbinfo\_version'
+2026-11-12T07:27:33.921076Z	   10 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `clients`
+2026-11-12T07:27:33.924189Z	   10 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'sales_norm' AND TABLE_NAME = 'clients'
+2026-11-12T07:27:33.928805Z	   10 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `orders_bad_backup`
+2026-11-12T07:27:33.930805Z	   10 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'sales_norm' AND TABLE_NAME = 'orders_bad_backup'
+2026-11-12T07:27:33.934732Z	   10 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `products`
+2026-11-12T07:27:33.936471Z	   10 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'sales_norm' AND TABLE_NAME = 'products'
+2026-11-12T07:27:33.941787Z	   10 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `sale_items`
+2026-11-12T07:27:33.943815Z	   10 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'sales_norm' AND TABLE_NAME = 'sale_items'
+2026-11-12T07:27:33.947438Z	   10 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `sales`
+2026-11-12T07:27:33.949315Z	   10 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'sales_norm' AND TABLE_NAME = 'sales'
