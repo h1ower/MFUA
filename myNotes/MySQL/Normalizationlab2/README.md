@@ -493,18 +493,18 @@ normalization_lab/
 └── dump_after.sql
 ```
 
-## Скриншоты о выполнении работы
+## Скриншоты
 
-![alt text](<screen/Снимок экрана 2026-11-12 101844.png>)
+![alt](<screenshots/1.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-12 101920.png>)
+![alt](<screenshots/2.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-12 102124.png>)
+![alt](<screenshots/3.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-12 102312.png>)
+![alt](<screenshots/4.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-12 102411.png>)
+![alt](<screenshots/5.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-12 102703.png>)
+![alt](<screenshots/6.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-12 102718.png>)
+![alt](<screenshots/7.png>)
