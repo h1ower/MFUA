@@ -197,7 +197,7 @@
 
 ссылка на dump :[dump](./sales_norm_dump.sql)
 
-ссылка на loggg :[log](./general.log)
+ссылка на log :[log](./general.log)
 
 
 ![miao](./screen/1.png)
