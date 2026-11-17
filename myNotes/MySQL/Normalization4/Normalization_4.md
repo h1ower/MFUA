@@ -221,11 +221,10 @@
 
 ---
 
-ссылка на dump :[dumppp](./orders_norm_dump.sql)
+ссылка на dump :[dump](./orders_norm_dump.sql)
 
 ссылка на log :[log](./general.log)
 
-скриншоты ам ам ам :
 
 ![miao](./screen/1.png)
 
