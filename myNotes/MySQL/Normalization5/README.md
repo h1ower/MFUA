@@ -406,18 +406,18 @@ normalization_lab/
 
 ## Скриншоты о выполнении работы
 
-![alt text](<screen/Снимок экрана 2026-11-13 131405.png>)
+![art](<screen/1.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-13 131414.png>)
+![art](<screen/2.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-13 131528.png>)
+![art](<screen/3.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-13 131536.png>)
+![art](<screen/4.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-13 131546.png>)
+![art](<screen/5.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-13 131552.png>)
+![art](<screen/6.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-13 131629.png>)
+![art](<screen/7.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-13 131638.png>)
+![art](<screen/8.png>)
