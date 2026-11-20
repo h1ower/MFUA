@@ -17,25 +17,23 @@
 ---
 # Скриншоты о выполнении работы
 
-![alt text](<screen/Снимок экрана 2026-11-17 113546.png>)
+![alt](<screen/1.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-17 113623.png>)
+![alt](<screen/2.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-17 113646.png>)
+![alt](<screen/3.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-17 113748.png>)
+![alt](<screen/4.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-17 113827.png>)
+![alt](<screen/5.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-17 113838.png>)
+![alt](<screen/6.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-17 113918.png>)
+![alt](<screen/7.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-17 113928.png>)
+![alt](<screen/8.png>)
 
-![alt text](<screen/Снимок экрана 2026-11-17 113933.png>)
-
-![alt text](<screen/Снимок экрана 2026-11-17 114003.png>)
+![alt](<screen/9.png>)
 
 
 ## 🔹 0. Подготовка `my.cnf`
